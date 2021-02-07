@@ -8,7 +8,7 @@ This repo consist of the code: javascript and html needed to deploy the Covisure
 
 * [Google Cloud Platform] - Used for storing datasets and using api's to train model
 * [Google Vision API] - For Training Model
-* [Javascript] - 
+* [Javascript] 
 * [HTML] - Frontend
 * [CSS] - To make it look pretty
 
