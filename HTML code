@@ -1,22 +1,31 @@
 <html>
 <head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <script src="https://unpkg.com/@tensorflow/tfjs"></script>
 <script src="https://unpkg.com/@tensorflow/tfjs-automl"></script>
 </head>
-<body>
- 
-<form action="/action_page.php">
-  <label for="myfile">Select files:</label>
-  <input type="file" id="myfile" name="myfile" multiple><br><br>
-  <input type="submit">
-</form>
+<body class="p-3 mb-2 bg-dark text-white" style="text-align: center;">
+    
+    <img src="covisure.png" alt="logo">
+    <br><br><br><br>
+<form action="/action_page.php" >
+  <label for="myfile" class="btn btn-outline-warning" >Select files</label>
+  <br>
+<div class="spinner-grow" role="status">
+    <span class="visually-hidden">Loading...</span>
+</div>
+<br>
+  <input type="file" id="myfile" name="myfile" multiple class="btn btn-outline-warning" ><br><br>
+  <input type="submit" class="btn btn-outline-warning">
+</form> 
     
 <div id="predictions-covid"></div>
 <div id="predictions-normal"></div>
 <div id="predictions-pneumonia"></div>
  
-<button type="button" id="startPredicting" onclick="startPredicting()"> Start Predicting </button>
-<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+<button type="button" id="startPredicting" class="btn btn-warning" onclick="startPredicting()"> Start Predicting </button>
+<button type="button" id="stopPredicting" class="btn btn-warning" onclick="stopPredicting()" >Stop Predicting</button>
 <script src= "index.js">
 
 </script>
