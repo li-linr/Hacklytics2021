@@ -20,3 +20,17 @@ This repo consist of the code: javascript and html needed to deploy the Covisure
 * [Kishan Patel]
 * [Linrui Li]
 * [Vishvam]
+
+
+
+
+
+   [Vishvam]: <https://github.com/VishvamPorwal>
+   [Earth Lyons]:<https://github.com/Earth-Lyons>
+   
+   [HTML]: <https://developer.mozilla.org/en-US/docs/Web/HTML>
+   [CSS]: <https://developer.mozilla.org/en-US/docs/Web/CSS>
+   [Javascript]: <https://www.javascript.com/>
+   [Google Cloud Platform]: <https://cloud.google.com/>
+   [Google Vision API]: <https://cloud.google.com/vision>
+   
