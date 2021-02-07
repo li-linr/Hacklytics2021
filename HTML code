@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://unpkg.com/@tensorflow/tfjs"></script>
+<script src="https://unpkg.com/@tensorflow/tfjs-automl"></script>
+</head>
+<body>
+ 
+<form action="/action_page.php">
+  <label for="myfile">Select files:</label>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+  <input type="submit">
+</form>
+    
+<div id="predictions-covid"></div>
+<div id="predictions-normal"></div>
+<div id="predictions-pneumonia"></div>
+ 
+<button type="button" id="startPredicting" onclick="startPredicting()"> Start Predicting </button>
+<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+<script src= "index.js">
+
+</script>
+</body>
+</html>
