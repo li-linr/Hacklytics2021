@@ -4,6 +4,13 @@ This repo consist of the code: javascript and html needed to deploy the Covisure
 
 <br>
 
+<h2 align="center">
+  <a href=""><img src="https://i.ibb.co/wp1vM9d/covisure.png" width="250"/></a>
+    <br>
+    <br>
+</h2>
+<br>
+
 ### Technologies :computer:
 
 * [Google Cloud Platform] - Used for storing datasets and using api's to train model
