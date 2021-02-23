@@ -34,6 +34,7 @@ This repo consist of the code: javascript and html needed to deploy the Covisure
 
    [Vishvam]: <https://github.com/VishvamPorwal>
    [Earth Lyons]:<https://github.com/Earth-Lyons>
+   [Linrui Li]:<https://github.com/li-linr>
    
    [HTML]: <https://developer.mozilla.org/en-US/docs/Web/HTML>
    [CSS]: <https://developer.mozilla.org/en-US/docs/Web/CSS>
